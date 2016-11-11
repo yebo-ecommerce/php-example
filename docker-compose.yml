@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    image: php
+    working_dir: /var/www/html
+    command: php sample.php
+    volumes:
+      - .:/var/www/html
+
